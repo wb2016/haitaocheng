@@ -572,3 +572,61 @@ a{text-decoration: none;}
 	right: 0;
 	top: 5px;
 }
+
+
+
+
+
+
+/*brand*/
+.brand{
+	width: 100%;
+	height: 350px;
+	background-color: #f8f8f8;
+}
+.brand_out{
+	width: 1200px;
+	height: 350px;
+	margin: 0 auto;
+	background-color: pink;
+}
+.brand_left{
+	width: 1200px;
+	height: 30px;
+	background:  #f8f8f8;
+}
+.brand_left_one{
+	float: left;
+    width: 240px;
+    height: 30px;
+    background: url(../img/10.png) no-repeat 0 5px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.brand_left_one a{
+	text-decoration: none;
+    color: #333;
+}
+.brand_cet{
+	width: 500px;
+	height: 30px;
+	float: left;
+}
+.brand_cet ul li{
+	float: left;
+    padding: 0 10px;
+}
+.brand_cet li a{
+	display: inline-block;
+    height: 30px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #000000;
+}
+.brand_btm a{
+	float: right;
+    padding-right: 12px;
+    background: url(../img/4.png) no-repeat right 5px;
+    color: #333;
+    font-size: 12px;
+}
