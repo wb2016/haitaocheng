@@ -361,7 +361,7 @@ a{text-decoration: none;}
     height: 42px;
     overflow: hidden;
 }
-.item a{
+.item_one a{
 	display: inline-block;
 	height: 42px;
 	line-height: 42px;
@@ -369,4 +369,206 @@ a{text-decoration: none;}
 	color: white;
 	background: url(../img/1.gif) no-repeat right 4px;
 	padding-right: 10px;
+}
+.banner_bom img{
+	width: 195px;
+	height: 364px;
+	position: absolute;
+	left: 1005px;
+	right:0;
+	
+}
+
+
+
+
+/*banner*/
+.banner{
+	position: absolute;
+	width: 100%;
+	height: 364px;
+	/*display: none;*/
+}
+.banner_left{
+	width: 1200px;
+	height: 364px;
+	margin: 0 auto;
+	background-color: pink;
+}
+.banner_left .banner_one{
+	width: 1005px;
+	height: 364px;
+}
+.catalog{
+	position: relative;
+    left:0;
+    top: 0;
+    width: 220px;
+    height: 364px;
+    background-color: #fcfcfc;
+    z-index: 999;
+   
+    box-shadow: 0 0 6px rgba(0,0,0,0.25);
+}
+.banner_left .item{
+	width: 1005px;
+	height: 60px;
+	/*background-color: yellow;*/
+	float: left;
+   /* zoom: 1;*/
+}
+.cataitem{
+	position: absolute;
+	height: 40px;
+    padding: 6px 0 13px 10px;
+    width: 220px;
+}
+.cataitem h3 a{
+	padding-left: 3px;
+	font-size: 14px;
+	text-decoration: none;
+    color: #333;
+}
+.cataitem p{
+	padding-left: 5px;
+	
+}
+.cataitem p a{
+	font-size: 14px;
+	margin-right: 8px;
+    color: #9c9c9c;
+    line-height: 18px;
+}
+.subcat{
+	
+	position: absolute;
+    left: 100%;
+    top: 0;
+    width: 765px;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    display: none;
+    padding: 10px;
+    padding-bottom: 0;
+    height: 354px;
+    z-index: 9999;
+}
+.subcatcon{
+	height: 364px;
+	float: left;
+    width: 560px;
+    padding: 5px;
+}
+.subcatcon dt{
+	height: 20px;
+    width: 60px;
+    font-size: 14px;
+    text-align: right;
+    clear: both;
+    line-height: 20px;
+    font-weight: bold;
+}
+.subcatcon dl dt a{
+	text-decoration: none;
+    color: #333;
+}
+.subcatcon dd{
+	padding-left: 70px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 8px;
+    margin-top: -20px;
+    line-height:18px;
+    padding-bottom: 6px;
+}
+.subcatcon dd a{
+	font-size: 12px;
+	color: #7b7b7b;
+    white-space: nowrap;
+    margin-right: 6px;
+}
+.item a:hover{
+	color: #ff800f;
+}
+
+
+
+
+
+
+/*lunbotu*/
+.benner{
+	width: 100%;
+	height: 364px;
+	background: rgb(226, 0, 74);
+}
+.benner .wrapper{
+	position: relative;
+	width: 100%;
+	height: 364px;
+	margin: 0 auto;
+}
+.carousel{
+	position: relative;
+	width: 1200px;
+	height: 364px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.carousel .list_ba{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 2400px;
+	overflow: hidden;
+	height: 364px;
+}
+
+.carousel .list_ba li{
+	float: left;
+}
+.carousel .direction{
+	display: none;
+}
+.carousel .direction a{
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	width: 30px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+	background: rgba(0,0,0,.4);
+	vertical-align: bottom;
+}
+.carousel .direction .left{
+	left: 0;
+}
+.carousel .direction .right{
+	right: 0;
+}
+.carousel .icon-btn{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+	text-align: center;
+	font-size: 0;
+}
+.carousel .icon-btn a{
+	display: inline-block;
+	margin: 0 4px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: green;
+}
+.carousel .icon-btn .active{
+	background: yellow;
+}
+.big_img{
+	position: absolute;
+	right: 0;
+	top: 5px;
 }
